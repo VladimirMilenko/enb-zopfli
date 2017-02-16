@@ -1,11 +1,11 @@
-# enb-zopfly
+# enb-zopfli
 
-ENB plugin to gzip files using node-zopfly module.
+ENB plugin to gzip files using node-zopfli module.
 
 ## Installation
 
 ```
-npm i enb-zopfly --save
+npm i enb-zopfli --save
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm i enb-zopfly --save
 In make.js:
 
 ```js
-[require('enb-zopfly/techs/zopfly'), {
+[require('enb-zopfli/techs/zopfli'), {
     source: '?.js',
     target: '?.js.gz'
     }
@@ -21,7 +21,7 @@ In make.js:
 ```
 
 ```js
-[require('enb-zopfly/techs/zopfly'), {
+[require('enb-zopfli/techs/zopfli'), {
     source: '?.css',
     target: '?.css.gz'
     }

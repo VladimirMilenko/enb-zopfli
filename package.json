@@ -1,7 +1,7 @@
 {
-  "name": "enb-zopfly",
+  "name": "enb-zopfli",
   "version": "0.0.1",
-  "description": "Zopfly plugin for ENB",
+  "description": "Zopfli plugin for ENB",
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ."

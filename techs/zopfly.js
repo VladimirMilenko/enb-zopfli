@@ -12,7 +12,7 @@
  * **Example**
  *
  * ```javascript
- * nodeConfig.addTech(require('enb-zopfly/techs/zopfly'));
+ * nodeConfig.addTech(require('enb-zopfli/techs/zopfli'));
  * ```
  */
 
@@ -25,8 +25,7 @@ module.exports = require('enb/lib/build-flow').create()
     .target('target')
     .useSourceFilename('source')
     .defineRequiredOption('source')
-    .builder(function (fileName) {
-        console.log(fileName);
+    .builder(function () {
         var node = this.node,
             input = node.resolvePath(this._source),
             output = node.resolvePath(this._target);

@@ -1,6 +1,6 @@
 {
   "name": "enb-zopfli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zopfli plugin for ENB",
   "scripts": {
     "test": "npm run lint",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladimirMilenko/enb-zopfly.git"
+    "url": "git+https://github.com/VladimirMilenko/enb-zopfli.git"
   },
   "author": "Vladimir Milenko https://github.com/VladimirMilenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VladimirMilenko/enb-zopfly/issues"
+    "url": "https://github.com/VladimirMilenko/enb-zopfli/issues"
   },
-  "homepage": "https://github.com/VladimirMilenko/enb-zopfly#readme",
+  "homepage": "https://github.com/VladimirMilenko/enb-zopfli#readme",
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-pedant": "^0.8.0",

@@ -12,7 +12,7 @@
  * **Example**
  *
  * ```javascript
- * nodeConfig.addTech(require('enb-wrap/techs/wrap'));
+ * nodeConfig.addTech(require('enb-zopfly/techs/zopfly'));
  * ```
  */
 

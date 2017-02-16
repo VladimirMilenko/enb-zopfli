@@ -25,12 +25,14 @@ module.exports = require('enb/lib/build-flow').create()
     .target('target')
     .useSourceFilename('source')
     .defineRequiredOption('source')
+    .defineOption('zopfliOptions')
     .builder(function () {
         var node = this.node,
             input = node.resolvePath(this._source),
-            output = node.resolvePath(this._target);
+            output = node.resolvePath(this._target),
+            options = this._zopfliOptions;
         fs.createReadStream(input)
-            .pipe(zopfli.createGzip())
+            .pipe(zopfli.createGzip(options))
             .pipe(fs.createWriteStream(output));
     })
     .createTech();

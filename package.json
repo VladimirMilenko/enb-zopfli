@@ -1,6 +1,6 @@
 {
   "name": "enb-zopfli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zopfli plugin for ENB",
   "scripts": {
     "test": "npm run lint",

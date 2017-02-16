@@ -26,3 +26,20 @@ In make.js:
     target: '?.css.gz'
     }
 }]
+
+### Usage with Zopfli Options
+
+```js
+[require('enb-zopfli/techs/zopfli'), {
+    source: '?.css',
+    target: '?.css.gz',
+    zopfliOptions:{
+          verbose: false,
+          verbose_more: false,
+          numiterations: 25,
+          blocksplitting: true,
+          blocksplittinglast: false,
+          blocksplittingmax: 15
+    }
+}]
+```

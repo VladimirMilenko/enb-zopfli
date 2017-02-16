@@ -26,7 +26,7 @@ In make.js:
     target: '?.css.gz'
     }
 }]
-
+```
 ### Usage with Zopfli Options
 
 ```js

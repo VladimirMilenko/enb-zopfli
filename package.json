@@ -22,9 +22,11 @@
     "url": "https://github.com/VladimirMilenko/enb-zopfli/issues"
   },
   "homepage": "https://github.com/VladimirMilenko/enb-zopfli#readme",
+  "dependencies": {
+    "node-zopfli": "^2.0.2"
+  },
   "devDependencies": {
     "eslint": "^3.15.0",
-    "eslint-config-pedant": "^0.8.0",
-    "node-zopfli": "^2.0.2"
+    "eslint-config-pedant": "^0.8.0"
   }
 }
